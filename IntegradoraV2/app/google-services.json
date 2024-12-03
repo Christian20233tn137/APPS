@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "397807590453",
+    "firebase_url": "https://quizcreator-5f88e-default-rtdb.firebaseio.com",
+    "project_id": "quizcreator-5f88e",
+    "storage_bucket": "quizcreator-5f88e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397807590453:android:ee58a9c5bceb4c06f2e57c",
+        "android_client_info": {
+          "package_name": "com.example.quizcreator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJEzYFirwK3cQlghTbaqHhu4VrVuXOu8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

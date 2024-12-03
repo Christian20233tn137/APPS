@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título del Quiz -->
+    <EditText
+        android:id="@+id/editTextQuizTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Título del Quiz"
+        android:inputType="text" />
+
+    <!-- Pregunta -->
+    <EditText
+        android:id="@+id/editTextQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Pregunta"
+        android:inputType="text" />
+
+    <!-- Opciones de la pregunta -->
+    <EditText
+        android:id="@+id/editTextOption1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Opción 1"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextOption2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Opción 2"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextOption3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Opción 3"
+        android:inputType="text" />
+
+    <!-- Botón para agregar pregunta -->
+    <Button
+        android:id="@+id/btnAddQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir Pregunta"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón para guardar el quiz -->
+    <Button
+        android:id="@+id/btnSaveQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Quiz"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnCreateQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Quiz"
+        android:layout_centerHorizontal="true"
+        android:onClick="onCreateQuizClick"/>
+
+    <Button
+        android:id="@+id/btnAnswerQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Responder Quiz"
+        android:layout_below="@id/btnCreateQuiz"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onAnswerQuizClick"/>
+
+    <Button
+        android:id="@+id/btnViewResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Resultados"
+        android:layout_below="@id/btnAnswerQuiz"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onViewResultsClick"/>
+
+    <Button
+        android:id="@+id/btnMyQuizzes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mis Quizzes"
+        android:layout_below="@id/btnViewResults"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onMyQuizzesClick"/>
+
+</RelativeLayout>
